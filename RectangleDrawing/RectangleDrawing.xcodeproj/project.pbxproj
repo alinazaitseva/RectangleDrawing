@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CE4C3A1E211201A300190747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A1D211201A300190747 /* AppDelegate.swift */; };
-		CE4C3A20211201A300190747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A1F211201A300190747 /* ViewController.swift */; };
 		CE4C3A23211201A300190747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A21211201A300190747 /* Main.storyboard */; };
 		CE4C3A25211201C200190747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A24211201C200190747 /* Assets.xcassets */; };
 		CE4C3A28211201C200190747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A26211201C200190747 /* LaunchScreen.storyboard */; };
-		CE4C3A33211201C200190747 /* RectangleDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A32211201C200190747 /* RectangleDrawingTests.swift */; };
-		CE4C3A3E211201C200190747 /* RectangleDrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A3D211201C200190747 /* RectangleDrawingUITests.swift */; };
+		CE4C3A52211203DC00190747 /* TappedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A4E211203DB00190747 /* TappedRectangle.swift */; };
+		CE4C3A53211203DC00190747 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A4F211203DC00190747 /* MainViewController.swift */; };
+		CE4C3A54211203DC00190747 /* RandomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A50211203DC00190747 /* RandomColorPicker.swift */; };
+		CE4C3A55211203DC00190747 /* CirclePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A51211203DC00190747 /* CirclePainter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +37,16 @@
 /* Begin PBXFileReference section */
 		CE4C3A1A211201A300190747 /* RectangleDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectangleDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4C3A1D211201A300190747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE4C3A1F211201A300190747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE4C3A22211201A300190747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE4C3A24211201C200190747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4C3A27211201C200190747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4C3A29211201C200190747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4C3A2E211201C200190747 /* RectangleDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4C3A32211201C200190747 /* RectangleDrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDrawingTests.swift; sourceTree = "<group>"; };
-		CE4C3A34211201C200190747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4C3A39211201C200190747 /* RectangleDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleDrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4C3A3D211201C200190747 /* RectangleDrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDrawingUITests.swift; sourceTree = "<group>"; };
-		CE4C3A3F211201C200190747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4C3A4E211203DB00190747 /* TappedRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappedRectangle.swift; sourceTree = "<group>"; };
+		CE4C3A4F211203DC00190747 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE4C3A50211203DC00190747 /* RandomColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColorPicker.swift; sourceTree = "<group>"; };
+		CE4C3A51211203DC00190747 /* CirclePainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePainter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				CE4C3A1C211201A300190747 /* RectangleDrawing */,
-				CE4C3A31211201C200190747 /* RectangleDrawingTests */,
-				CE4C3A3C211201C200190747 /* RectangleDrawingUITests */,
 				CE4C3A1B211201A300190747 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,32 +95,41 @@
 		CE4C3A1C211201A300190747 /* RectangleDrawing */ = {
 			isa = PBXGroup;
 			children = (
-				CE4C3A1D211201A300190747 /* AppDelegate.swift */,
-				CE4C3A1F211201A300190747 /* ViewController.swift */,
+				CE4C3A4D2112031200190747 /* Enum */,
+				CE4C3A4C211202BB00190747 /* ViewControllers */,
+				CE4C3A4B2112029800190747 /* Supporting files */,
 				CE4C3A21211201A300190747 /* Main.storyboard */,
-				CE4C3A24211201C200190747 /* Assets.xcassets */,
 				CE4C3A26211201C200190747 /* LaunchScreen.storyboard */,
-				CE4C3A29211201C200190747 /* Info.plist */,
 			);
 			path = RectangleDrawing;
 			sourceTree = "<group>";
 		};
-		CE4C3A31211201C200190747 /* RectangleDrawingTests */ = {
+		CE4C3A4B2112029800190747 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				CE4C3A32211201C200190747 /* RectangleDrawingTests.swift */,
-				CE4C3A34211201C200190747 /* Info.plist */,
+				CE4C3A1D211201A300190747 /* AppDelegate.swift */,
+				CE4C3A24211201C200190747 /* Assets.xcassets */,
+				CE4C3A29211201C200190747 /* Info.plist */,
 			);
-			path = RectangleDrawingTests;
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
-		CE4C3A3C211201C200190747 /* RectangleDrawingUITests */ = {
+		CE4C3A4C211202BB00190747 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE4C3A3D211201C200190747 /* RectangleDrawingUITests.swift */,
-				CE4C3A3F211201C200190747 /* Info.plist */,
+				CE4C3A51211203DC00190747 /* CirclePainter.swift */,
+				CE4C3A4F211203DC00190747 /* MainViewController.swift */,
+				CE4C3A50211203DC00190747 /* RandomColorPicker.swift */,
+				CE4C3A4E211203DB00190747 /* TappedRectangle.swift */,
 			);
-			path = RectangleDrawingUITests;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE4C3A4D2112031200190747 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4C3A20211201A300190747 /* ViewController.swift in Sources */,
+				CE4C3A52211203DC00190747 /* TappedRectangle.swift in Sources */,
+				CE4C3A54211203DC00190747 /* RandomColorPicker.swift in Sources */,
 				CE4C3A1E211201A300190747 /* AppDelegate.swift in Sources */,
+				CE4C3A53211203DC00190747 /* MainViewController.swift in Sources */,
+				CE4C3A55211203DC00190747 /* CirclePainter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4C3A33211201C200190747 /* RectangleDrawingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4C3A3E211201C200190747 /* RectangleDrawingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
