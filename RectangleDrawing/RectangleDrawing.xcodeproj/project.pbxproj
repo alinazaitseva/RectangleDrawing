@@ -7,51 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE4C3A092111E3D200190747 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A082111E3D100190747 /* Default-568h@2x.png */; };
-		CE4C3A102111FEC700190747 /* GesturesAndRectDrawing in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A0F2111FEC700190747 /* GesturesAndRectDrawing */; };
+		CE4C3A1E211201A300190747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A1D211201A300190747 /* AppDelegate.swift */; };
+		CE4C3A20211201A300190747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A1F211201A300190747 /* ViewController.swift */; };
+		CE4C3A23211201A300190747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A21211201A300190747 /* Main.storyboard */; };
+		CE4C3A25211201C200190747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A24211201C200190747 /* Assets.xcassets */; };
+		CE4C3A28211201C200190747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C3A26211201C200190747 /* LaunchScreen.storyboard */; };
+		CE4C3A33211201C200190747 /* RectangleDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A32211201C200190747 /* RectangleDrawingTests.swift */; };
+		CE4C3A3E211201C200190747 /* RectangleDrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A3D211201C200190747 /* RectangleDrawingUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE4C39E621119E0200190747 /* PBXContainerItemProxy */ = {
+		CE4C3A2F211201C200190747 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE4C39C921119DEC00190747 /* Project object */;
+			containerPortal = CE4C3A12211201A300190747 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE4C39D021119DEC00190747;
-			remoteInfo = GesturesAndRectDrawing;
+			remoteGlobalIDString = CE4C3A19211201A300190747;
+			remoteInfo = RectangleDrawing;
 		};
-		CE4C39F121119E0200190747 /* PBXContainerItemProxy */ = {
+		CE4C3A3A211201C200190747 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE4C39C921119DEC00190747 /* Project object */;
+			containerPortal = CE4C3A12211201A300190747 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE4C39D021119DEC00190747;
-			remoteInfo = GesturesAndRectDrawing;
+			remoteGlobalIDString = CE4C3A19211201A300190747;
+			remoteInfo = RectangleDrawing;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE4C39D121119DEC00190747 /* GesturesAndRectDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesAndRectDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4C39E521119E0200190747 /* GesturesAndRectDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesAndRectDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4C39F021119E0200190747 /* GesturesAndRectDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesAndRectDrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE4C3A082111E3D100190747 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CE4C3A0F2111FEC700190747 /* GesturesAndRectDrawing */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GesturesAndRectDrawing; sourceTree = SOURCE_ROOT; };
+		CE4C3A1A211201A300190747 /* RectangleDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RectangleDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4C3A1D211201A300190747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE4C3A1F211201A300190747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4C3A22211201A300190747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE4C3A24211201C200190747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4C3A27211201C200190747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE4C3A29211201C200190747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4C3A2E211201C200190747 /* RectangleDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4C3A32211201C200190747 /* RectangleDrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDrawingTests.swift; sourceTree = "<group>"; };
+		CE4C3A34211201C200190747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4C3A39211201C200190747 /* RectangleDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RectangleDrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4C3A3D211201C200190747 /* RectangleDrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleDrawingUITests.swift; sourceTree = "<group>"; };
+		CE4C3A3F211201C200190747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE4C39CE21119DEC00190747 /* Frameworks */ = {
+		CE4C3A17211201A300190747 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4C39E221119E0200190747 /* Frameworks */ = {
+		CE4C3A2B211201C200190747 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4C39ED21119E0200190747 /* Frameworks */ = {
+		CE4C3A36211201C200190747 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,105 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE4C39C821119DEC00190747 = {
+		CE4C3A11211201A300190747 = {
 			isa = PBXGroup;
 			children = (
-				CE4C3A082111E3D100190747 /* Default-568h@2x.png */,
-				CE4C3A0F2111FEC700190747 /* GesturesAndRectDrawing */,
-				CE4C39D221119DEC00190747 /* Products */,
+				CE4C3A1C211201A300190747 /* RectangleDrawing */,
+				CE4C3A31211201C200190747 /* RectangleDrawingTests */,
+				CE4C3A3C211201C200190747 /* RectangleDrawingUITests */,
+				CE4C3A1B211201A300190747 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE4C39D221119DEC00190747 /* Products */ = {
+		CE4C3A1B211201A300190747 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE4C39D121119DEC00190747 /* GesturesAndRectDrawing.app */,
-				CE4C39E521119E0200190747 /* GesturesAndRectDrawingTests.xctest */,
-				CE4C39F021119E0200190747 /* GesturesAndRectDrawingUITests.xctest */,
+				CE4C3A1A211201A300190747 /* RectangleDrawing.app */,
+				CE4C3A2E211201C200190747 /* RectangleDrawingTests.xctest */,
+				CE4C3A39211201C200190747 /* RectangleDrawingUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4C3A1C211201A300190747 /* RectangleDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C3A1D211201A300190747 /* AppDelegate.swift */,
+				CE4C3A1F211201A300190747 /* ViewController.swift */,
+				CE4C3A21211201A300190747 /* Main.storyboard */,
+				CE4C3A24211201C200190747 /* Assets.xcassets */,
+				CE4C3A26211201C200190747 /* LaunchScreen.storyboard */,
+				CE4C3A29211201C200190747 /* Info.plist */,
+			);
+			path = RectangleDrawing;
+			sourceTree = "<group>";
+		};
+		CE4C3A31211201C200190747 /* RectangleDrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C3A32211201C200190747 /* RectangleDrawingTests.swift */,
+				CE4C3A34211201C200190747 /* Info.plist */,
+			);
+			path = RectangleDrawingTests;
+			sourceTree = "<group>";
+		};
+		CE4C3A3C211201C200190747 /* RectangleDrawingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C3A3D211201C200190747 /* RectangleDrawingUITests.swift */,
+				CE4C3A3F211201C200190747 /* Info.plist */,
+			);
+			path = RectangleDrawingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE4C39D021119DEC00190747 /* GesturesAndRectDrawing */ = {
+		CE4C3A19211201A300190747 /* RectangleDrawing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE4C39F921119E0200190747 /* Build configuration list for PBXNativeTarget "GesturesAndRectDrawing" */;
+			buildConfigurationList = CE4C3A42211201C200190747 /* Build configuration list for PBXNativeTarget "RectangleDrawing" */;
 			buildPhases = (
-				CE4C39CD21119DEC00190747 /* Sources */,
-				CE4C39CE21119DEC00190747 /* Frameworks */,
-				CE4C39CF21119DEC00190747 /* Resources */,
+				CE4C3A16211201A300190747 /* Sources */,
+				CE4C3A17211201A300190747 /* Frameworks */,
+				CE4C3A18211201A300190747 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GesturesAndRectDrawing;
-			productName = GesturesAndRectDrawing;
-			productReference = CE4C39D121119DEC00190747 /* GesturesAndRectDrawing.app */;
+			name = RectangleDrawing;
+			productName = RectangleDrawing;
+			productReference = CE4C3A1A211201A300190747 /* RectangleDrawing.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE4C39E421119E0200190747 /* GesturesAndRectDrawingTests */ = {
+		CE4C3A2D211201C200190747 /* RectangleDrawingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE4C39FC21119E0200190747 /* Build configuration list for PBXNativeTarget "GesturesAndRectDrawingTests" */;
+			buildConfigurationList = CE4C3A45211201C200190747 /* Build configuration list for PBXNativeTarget "RectangleDrawingTests" */;
 			buildPhases = (
-				CE4C39E121119E0200190747 /* Sources */,
-				CE4C39E221119E0200190747 /* Frameworks */,
-				CE4C39E321119E0200190747 /* Resources */,
+				CE4C3A2A211201C200190747 /* Sources */,
+				CE4C3A2B211201C200190747 /* Frameworks */,
+				CE4C3A2C211201C200190747 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE4C39E721119E0200190747 /* PBXTargetDependency */,
+				CE4C3A30211201C200190747 /* PBXTargetDependency */,
 			);
-			name = GesturesAndRectDrawingTests;
-			productName = GesturesAndRectDrawingTests;
-			productReference = CE4C39E521119E0200190747 /* GesturesAndRectDrawingTests.xctest */;
+			name = RectangleDrawingTests;
+			productName = RectangleDrawingTests;
+			productReference = CE4C3A2E211201C200190747 /* RectangleDrawingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE4C39EF21119E0200190747 /* GesturesAndRectDrawingUITests */ = {
+		CE4C3A38211201C200190747 /* RectangleDrawingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE4C39FF21119E0200190747 /* Build configuration list for PBXNativeTarget "GesturesAndRectDrawingUITests" */;
+			buildConfigurationList = CE4C3A48211201C200190747 /* Build configuration list for PBXNativeTarget "RectangleDrawingUITests" */;
 			buildPhases = (
-				CE4C39EC21119E0200190747 /* Sources */,
-				CE4C39ED21119E0200190747 /* Frameworks */,
-				CE4C39EE21119E0200190747 /* Resources */,
+				CE4C3A35211201C200190747 /* Sources */,
+				CE4C3A36211201C200190747 /* Frameworks */,
+				CE4C3A37211201C200190747 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE4C39F221119E0200190747 /* PBXTargetDependency */,
+				CE4C3A3B211201C200190747 /* PBXTargetDependency */,
 			);
-			name = GesturesAndRectDrawingUITests;
-			productName = GesturesAndRectDrawingUITests;
-			productReference = CE4C39F021119E0200190747 /* GesturesAndRectDrawingUITests.xctest */;
+			name = RectangleDrawingUITests;
+			productName = RectangleDrawingUITests;
+			productReference = CE4C3A39211201C200190747 /* RectangleDrawingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE4C39C921119DEC00190747 /* Project object */ = {
+		CE4C3A12211201A300190747 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Alina Zaitseva";
 				TargetAttributes = {
-					CE4C39D021119DEC00190747 = {
+					CE4C3A19211201A300190747 = {
 						CreatedOnToolsVersion = 9.4;
 					};
-					CE4C39E421119E0200190747 = {
+					CE4C3A2D211201C200190747 = {
 						CreatedOnToolsVersion = 9.4;
-						TestTargetID = CE4C39D021119DEC00190747;
+						TestTargetID = CE4C3A19211201A300190747;
 					};
-					CE4C39EF21119E0200190747 = {
+					CE4C3A38211201C200190747 = {
 						CreatedOnToolsVersion = 9.4;
-						TestTargetID = CE4C39D021119DEC00190747;
+						TestTargetID = CE4C3A19211201A300190747;
 					};
 				};
 			};
-			buildConfigurationList = CE4C39CC21119DEC00190747 /* Build configuration list for PBXProject "GesturesAndRectDrawing" */;
+			buildConfigurationList = CE4C3A15211201A300190747 /* Build configuration list for PBXProject "RectangleDrawing" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,36 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = CE4C39C821119DEC00190747;
-			productRefGroup = CE4C39D221119DEC00190747 /* Products */;
+			mainGroup = CE4C3A11211201A300190747;
+			productRefGroup = CE4C3A1B211201A300190747 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE4C39D021119DEC00190747 /* GesturesAndRectDrawing */,
-				CE4C39E421119E0200190747 /* GesturesAndRectDrawingTests */,
-				CE4C39EF21119E0200190747 /* GesturesAndRectDrawingUITests */,
+				CE4C3A19211201A300190747 /* RectangleDrawing */,
+				CE4C3A2D211201C200190747 /* RectangleDrawingTests */,
+				CE4C3A38211201C200190747 /* RectangleDrawingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE4C39CF21119DEC00190747 /* Resources */ = {
+		CE4C3A18211201A300190747 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4C3A102111FEC700190747 /* GesturesAndRectDrawing in Resources */,
-				CE4C3A092111E3D200190747 /* Default-568h@2x.png in Resources */,
+				CE4C3A28211201C200190747 /* LaunchScreen.storyboard in Resources */,
+				CE4C3A25211201C200190747 /* Assets.xcassets in Resources */,
+				CE4C3A23211201A300190747 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4C39E321119E0200190747 /* Resources */ = {
+		CE4C3A2C211201C200190747 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4C39EE21119E0200190747 /* Resources */ = {
+		CE4C3A37211201C200190747 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,44 +252,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE4C39CD21119DEC00190747 /* Sources */ = {
+		CE4C3A16211201A300190747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4C3A20211201A300190747 /* ViewController.swift in Sources */,
+				CE4C3A1E211201A300190747 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4C39E121119E0200190747 /* Sources */ = {
+		CE4C3A2A211201C200190747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4C3A33211201C200190747 /* RectangleDrawingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4C39EC21119E0200190747 /* Sources */ = {
+		CE4C3A35211201C200190747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4C3A3E211201C200190747 /* RectangleDrawingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE4C39E721119E0200190747 /* PBXTargetDependency */ = {
+		CE4C3A30211201C200190747 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE4C39D021119DEC00190747 /* GesturesAndRectDrawing */;
-			targetProxy = CE4C39E621119E0200190747 /* PBXContainerItemProxy */;
+			target = CE4C3A19211201A300190747 /* RectangleDrawing */;
+			targetProxy = CE4C3A2F211201C200190747 /* PBXContainerItemProxy */;
 		};
-		CE4C39F221119E0200190747 /* PBXTargetDependency */ = {
+		CE4C3A3B211201C200190747 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE4C39D021119DEC00190747 /* GesturesAndRectDrawing */;
-			targetProxy = CE4C39F121119E0200190747 /* PBXContainerItemProxy */;
+			target = CE4C3A19211201A300190747 /* RectangleDrawing */;
+			targetProxy = CE4C3A3A211201C200190747 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CE4C3A21211201A300190747 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4C3A22211201A300190747 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4C3A26211201C200190747 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4C3A27211201C200190747 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		CE4C39F721119E0200190747 /* Debug */ = {
+		CE4C3A40211201C200190747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		CE4C39F821119E0200190747 /* Release */ = {
+		CE4C3A41211201C200190747 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,160 +426,164 @@
 			};
 			name = Release;
 		};
-		CE4C39FA21119E0200190747 /* Debug */ = {
+		CE4C3A43211201C200190747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQ4JD7QCGM;
-				INFOPLIST_FILE = GesturesAndRectDrawing/Info.plist;
+				INFOPLIST_FILE = RectangleDrawing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GesturesAndRectDrawing";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RectangleDrawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CE4C39FB21119E0200190747 /* Release */ = {
+		CE4C3A44211201C200190747 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQ4JD7QCGM;
-				INFOPLIST_FILE = GesturesAndRectDrawing/Info.plist;
+				INFOPLIST_FILE = RectangleDrawing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GesturesAndRectDrawing";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RectangleDrawing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CE4C39FD21119E0200190747 /* Debug */ = {
+		CE4C3A46211201C200190747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQ4JD7QCGM;
-				INFOPLIST_FILE = GesturesAndRectDrawingTests/Info.plist;
+				INFOPLIST_FILE = RectangleDrawingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GesturesAndRectDrawingTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RectangleDrawingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GesturesAndRectDrawing.app/GesturesAndRectDrawing";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectangleDrawing.app/RectangleDrawing";
 			};
 			name = Debug;
 		};
-		CE4C39FE21119E0200190747 /* Release */ = {
+		CE4C3A47211201C200190747 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQ4JD7QCGM;
-				INFOPLIST_FILE = GesturesAndRectDrawingTests/Info.plist;
+				INFOPLIST_FILE = RectangleDrawingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GesturesAndRectDrawingTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RectangleDrawingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GesturesAndRectDrawing.app/GesturesAndRectDrawing";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RectangleDrawing.app/RectangleDrawing";
 			};
 			name = Release;
 		};
-		CE4C3A0021119E0200190747 /* Debug */ = {
+		CE4C3A49211201C200190747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQ4JD7QCGM;
-				INFOPLIST_FILE = GesturesAndRectDrawingUITests/Info.plist;
+				INFOPLIST_FILE = RectangleDrawingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GesturesAndRectDrawingUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RectangleDrawingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GesturesAndRectDrawing;
+				TEST_TARGET_NAME = RectangleDrawing;
 			};
 			name = Debug;
 		};
-		CE4C3A0121119E0200190747 /* Release */ = {
+		CE4C3A4A211201C200190747 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQ4JD7QCGM;
-				INFOPLIST_FILE = GesturesAndRectDrawingUITests/Info.plist;
+				INFOPLIST_FILE = RectangleDrawingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.GesturesAndRectDrawingUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RectangleDrawingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GesturesAndRectDrawing;
+				TEST_TARGET_NAME = RectangleDrawing;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE4C39CC21119DEC00190747 /* Build configuration list for PBXProject "GesturesAndRectDrawing" */ = {
+		CE4C3A15211201A300190747 /* Build configuration list for PBXProject "RectangleDrawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE4C39F721119E0200190747 /* Debug */,
-				CE4C39F821119E0200190747 /* Release */,
+				CE4C3A40211201C200190747 /* Debug */,
+				CE4C3A41211201C200190747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE4C39F921119E0200190747 /* Build configuration list for PBXNativeTarget "GesturesAndRectDrawing" */ = {
+		CE4C3A42211201C200190747 /* Build configuration list for PBXNativeTarget "RectangleDrawing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE4C39FA21119E0200190747 /* Debug */,
-				CE4C39FB21119E0200190747 /* Release */,
+				CE4C3A43211201C200190747 /* Debug */,
+				CE4C3A44211201C200190747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE4C39FC21119E0200190747 /* Build configuration list for PBXNativeTarget "GesturesAndRectDrawingTests" */ = {
+		CE4C3A45211201C200190747 /* Build configuration list for PBXNativeTarget "RectangleDrawingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE4C39FD21119E0200190747 /* Debug */,
-				CE4C39FE21119E0200190747 /* Release */,
+				CE4C3A46211201C200190747 /* Debug */,
+				CE4C3A47211201C200190747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE4C39FF21119E0200190747 /* Build configuration list for PBXNativeTarget "GesturesAndRectDrawingUITests" */ = {
+		CE4C3A48211201C200190747 /* Build configuration list for PBXNativeTarget "RectangleDrawingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE4C3A0021119E0200190747 /* Debug */,
-				CE4C3A0121119E0200190747 /* Release */,
+				CE4C3A49211201C200190747 /* Debug */,
+				CE4C3A4A211201C200190747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE4C39C921119DEC00190747 /* Project object */;
+	rootObject = CE4C3A12211201A300190747 /* Project object */;
 }
