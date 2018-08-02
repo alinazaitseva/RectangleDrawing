@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class ViewController: UIViewController {
     
     private var tapCount = 0
     private var tapfinishDraw = 0 {

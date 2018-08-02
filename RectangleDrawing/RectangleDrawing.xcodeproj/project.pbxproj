@@ -97,10 +97,10 @@
 		CE4C3A1C211201A300190747 /* RectangleDrawing */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C3A21211201A300190747 /* Main.storyboard */,
 				CE4C3A4D2112031200190747 /* Enum */,
 				CE4C3A4C211202BB00190747 /* ViewControllers */,
 				CE4C3A4B2112029800190747 /* Supporting files */,
-				CE4C3A21211201A300190747 /* Main.storyboard */,
 				CE4C3A26211201C200190747 /* LaunchScreen.storyboard */,
 				CE4C3A29211201C200190747 /* Info.plist */,
 			);
