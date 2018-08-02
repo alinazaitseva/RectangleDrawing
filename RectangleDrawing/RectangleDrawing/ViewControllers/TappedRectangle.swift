@@ -56,10 +56,10 @@ class TappedRectangle: UIView {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        var toucheArray = [CGPoint]()
+        var touchArray = [CGPoint]()
         if points.count > 0 {
-            toucheArray.append((touches.first?.location(in: self))!)
-            if distanceToObject(toucheArray, points) {
+            touchArray.append((touches.first?.location(in: self))!)
+            if distanceToObject(touchArray, points) {
                 state = 1
             }
             else {

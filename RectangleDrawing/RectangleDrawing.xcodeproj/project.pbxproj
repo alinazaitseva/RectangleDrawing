@@ -15,6 +15,7 @@
 		CE4C3A53211203DC00190747 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A4F211203DC00190747 /* MainViewController.swift */; };
 		CE4C3A54211203DC00190747 /* RandomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A50211203DC00190747 /* RandomColorPicker.swift */; };
 		CE4C3A55211203DC00190747 /* CirclePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A51211203DC00190747 /* CirclePainter.swift */; };
+		CE4C3A572112045600190747 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3A562112045600190747 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE4C3A4F211203DC00190747 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CE4C3A50211203DC00190747 /* RandomColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColorPicker.swift; sourceTree = "<group>"; };
 		CE4C3A51211203DC00190747 /* CirclePainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclePainter.swift; sourceTree = "<group>"; };
+		CE4C3A562112045600190747 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CE4C3A4B2112029800190747 /* Supporting files */,
 				CE4C3A21211201A300190747 /* Main.storyboard */,
 				CE4C3A26211201C200190747 /* LaunchScreen.storyboard */,
+				CE4C3A29211201C200190747 /* Info.plist */,
 			);
 			path = RectangleDrawing;
 			sourceTree = "<group>";
@@ -109,7 +112,6 @@
 			children = (
 				CE4C3A1D211201A300190747 /* AppDelegate.swift */,
 				CE4C3A24211201C200190747 /* Assets.xcassets */,
-				CE4C3A29211201C200190747 /* Info.plist */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -117,8 +119,8 @@
 		CE4C3A4C211202BB00190747 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE4C3A51211203DC00190747 /* CirclePainter.swift */,
 				CE4C3A4F211203DC00190747 /* MainViewController.swift */,
+				CE4C3A51211203DC00190747 /* CirclePainter.swift */,
 				CE4C3A50211203DC00190747 /* RandomColorPicker.swift */,
 				CE4C3A4E211203DB00190747 /* TappedRectangle.swift */,
 			);
@@ -128,6 +130,7 @@
 		CE4C3A4D2112031200190747 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C3A562112045600190747 /* CustomColor.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				CE4C3A52211203DC00190747 /* TappedRectangle.swift in Sources */,
 				CE4C3A54211203DC00190747 /* RandomColorPicker.swift in Sources */,
+				CE4C3A572112045600190747 /* CustomColor.swift in Sources */,
 				CE4C3A1E211201A300190747 /* AppDelegate.swift in Sources */,
 				CE4C3A53211203DC00190747 /* MainViewController.swift in Sources */,
 				CE4C3A55211203DC00190747 /* CirclePainter.swift in Sources */,

@@ -24,7 +24,7 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setGestures()
     }
     
     @objc private func tapOccured(_ tap: UITapGestureRecognizer) {
@@ -90,7 +90,7 @@ class MainViewController: UIViewController {
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         let views = self.view.subviews
-        let motionResult = views.map{$0.backgroundColor = RandomColorPicker.getColor()}
+       _ = views.map{$0.backgroundColor = RandomColorPicker.getColor()}
     }
     
 }
