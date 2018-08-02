@@ -19,7 +19,7 @@ class CirclePainter: CustomStringConvertible {
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = pathToCircle.cgPath
         shapeLayer.fillColor = UIColor.clear.cgColor
-        shapeLayer.strokeColor = UIColor.yellow.cgColor
+        shapeLayer.strokeColor = CustomColor.yellowCustom.color.cgColor
         shapeLayer.lineWidth = 2.0
         
         return (shapeLayer)

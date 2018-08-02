@@ -22,7 +22,7 @@ class TappedRectangle: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .green
+        self.backgroundColor = CustomColor.cyanCustom.color
         setGestures()
     }
     
