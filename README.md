@@ -1,6 +1,7 @@
 # RectangleDrawing
 
 App was tested on iPhone 7 simulator
+
 Built on XCode 9.4
 
 1. White screen after starting app
