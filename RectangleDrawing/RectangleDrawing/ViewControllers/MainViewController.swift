@@ -90,7 +90,7 @@ class ViewController: UIViewController {
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         let views = self.view.subviews
-       _ = views.map{$0.backgroundColor = RandomColorPicker.getColor()}
+        _ = views.map{$0.backgroundColor = RandomColorPicker.getColor()}
     }
     
 }
